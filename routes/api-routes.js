@@ -7,7 +7,7 @@ module.exports = function(app) {
 		db.Contact.findAll({ // find everything in table {}, 
 			order: [["lastName", "ASC"], ["firstName", "ASC"]]
 		}).then(function (contacts) {
-			res.render("contacts", { name: "Jonathans", favFood: " ", contacts: contacts }); // 2 key value pairs
+			res.render("contacts", { name: "Jonathan's", favSaying: "Gratitude is a great Attitude!", contacts: contacts }); // 2 key value pairs
 			// pass in handlebars template to render, 2nd arg must be object
 			// must take array 'contacts' and place into object 'contacts' as above
 		})
