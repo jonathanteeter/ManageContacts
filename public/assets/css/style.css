@@ -7,6 +7,10 @@ h1 {
 	margin-bottom: 24px;
 }
 
+h3 {
+	text-align: center;
+}
+
 th {
 	background-color: #337ab7;
 	color: #fff;

@@ -1,5 +1,5 @@
 # ManageContacts
-This is a full-stack application that lets users manage their contacts. Both the add and delete functions are currently supported.
+This is a full-stack application that lets users manage their Guest List for an upcoming event. Both the add and delete functions are currently supported.
 
 ## Design & Technology
 * The application provides a form in which to view and update your contacts.
